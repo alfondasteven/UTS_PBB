@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DetailFood">
+
+    <ImageView
+        android:id="@+id/imgFood"
+        android:layout_width="450dp"
+        android:layout_height="350dp"
+        android:background="@color/white" />
+
+    <TextView
+        android:id="@+id/tvFoodName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_marginTop="470dp"
+        android:layout_marginLeft="20dp"
+        android:text="@string/food_name"
+        />
+    <TextView
+        android:id="@+id/tvFoodDetail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvFoodName"
+        android:text="@string/detail"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"/>
+
+</RelativeLayout>
